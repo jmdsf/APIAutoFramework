@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="907c60a6-8ced-40e7-a2cd-460aa553f8e5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1affnGSgeozDHAOr9I8SGmw2t3O" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Juan\IdeaProjects\APIAutomation\src\test\java\resources" />
+      <recent name="C:\Users\Juan\IdeaProjects\APIAutomation\src\test\java" />
+      <recent name="C:\Users\Juan\IdeaProjects\APIAutomation\src\test" />
+      <recent name="C:\Users\Juan\IdeaProjects\APIAutomation\src\test\logs" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Juan\IdeaProjects\APIAutomation" />
+      <recent name="C:\Users\Juan\IdeaProjects\APIAutomation\src\test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/Juan/IdeaProjects/APIAutomation/testng.xml">
+    <configuration name="C:/Users/Juan/IdeaProjects/APIAutomation/testngEmployees.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngEmployees.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Juan/IdeaProjects/APIAutomation/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Student_GET_Request" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ApiTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ApiTest" />
+      <option name="MAIN_CLASS_NAME" value="ApiTest.Student_GET_Request" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Student_GET_Request.getStudentDetailsById" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ApiTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ApiTest" />
+      <option name="MAIN_CLASS_NAME" value="ApiTest.Student_GET_Request" />
+      <option name="METHOD_NAME" value="getStudentDetailsById" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Student_GET_Request.testMethod" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ApiTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ApiTest" />
+      <option name="MAIN_CLASS_NAME" value="ApiTest.Student_GET_Request" />
+      <option name="METHOD_NAME" value="testMethod" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.C:/Users/Juan/IdeaProjects/APIAutomation/testngEmployees.xml" />
+      <item itemvalue="TestNG.Student_GET_Request.testMethod" />
+      <item itemvalue="TestNG.Student_GET_Request.getStudentDetailsById" />
+      <item itemvalue="TestNG.Student_GET_Request" />
+      <item itemvalue="TestNG.C:/Users/Juan/IdeaProjects/APIAutomation/testng.xml" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/Juan/IdeaProjects/APIAutomation/testng.xml" />
+        <item itemvalue="TestNG.Student_GET_Request.getStudentDetailsById" />
+        <item itemvalue="TestNG.Student_GET_Request" />
+        <item itemvalue="TestNG.Student_GET_Request.testMethod" />
+        <item itemvalue="TestNG.C:/Users/Juan/IdeaProjects/APIAutomation/testngEmployees.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="907c60a6-8ced-40e7-a2cd-460aa553f8e5" name="Default Changelist" comment="" />
+      <created>1587131733753</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587131733753</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="392" y="0" width="596" height="728" key="#C:/Users/Juan/IdeaProjects/APIAutomation/testng.xml" timestamp="1587311378157">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="0" width="596" height="728" key="#C:/Users/Juan/IdeaProjects/APIAutomation/testng.xml/0.0.1366.728@0.0.1366.728" timestamp="1587311378157" />
+    <state x="275" y="21" key="#Plugins" timestamp="1587310416204">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="21" key="#Plugins/0.0.1366.728@0.0.1366.728" timestamp="1587310416204" />
+    <state x="137" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587368784517">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1587368784517" />
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1587372832734">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1587372832734" />
+    <state x="448" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587296299987">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="448" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1587296299987" />
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1587317783476">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1587317783476" />
+    <state x="412" y="146" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1587368770498">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="412" y="146" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1587368770498" />
+    <state x="479" y="222" width="407" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1587311676119">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="479" y="222" width="407" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1587311676119" />
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587299250121">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1587299250121" />
+    <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1587379845570">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587379845570" />
+    <state width="1322" height="218" key="GridCell.Tab.0.bottom" timestamp="1587379917709">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="218" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587379917709" />
+    <state width="1322" height="218" key="GridCell.Tab.0.center" timestamp="1587379917709">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="218" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587379917709" />
+    <state width="1322" height="218" key="GridCell.Tab.0.left" timestamp="1587379917709">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="218" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587379917709" />
+    <state width="1322" height="218" key="GridCell.Tab.0.right" timestamp="1587379917709">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="218" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587379917709" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1587379853410">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587379853410" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1587310550451">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587310550451" />
+    <state x="330" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587376303403">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="330" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1587376303403" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1587310405036">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1587310405036" />
+  </component>
+</project>

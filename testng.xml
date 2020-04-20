@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="Listeners.TestListeners"/>
+        <listener class-name="Listeners.AnnotationTransformer"/>
+        <listener class-name="ExtentReport.ExtentReporterNG"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/Juan/IdeaProjects/APIAutomation">
+<!--        <classes>-->
+<!--            <class name="ApiTest.Student_GET_Request"></class>-->
+<!--        </classes>-->
+        <packages>
+            <package name="ApiTest"/>
+        </packages>
+    </test>
+</suite>
