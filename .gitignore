@@ -1,1 +1,4 @@
 /test-output/
+/target/maven-status/
+/target/surefire-reports/
+/src/test/logs/

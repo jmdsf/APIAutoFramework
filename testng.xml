@@ -6,7 +6,7 @@
         <listener class-name="Listeners.AnnotationTransformer"/>
         <listener class-name="ExtentReport.ExtentReporterNG"/>
     </listeners>
-    <test verbose="2" preserve-order="true" name="C:/Users/Juan/IdeaProjects/APIAutomation">
+    <test verbose="2" preserve-order="true" name="/IdeaProjects/APIAutomation">
 <!--        <classes>-->
 <!--            <class name="ApiTest.Student_GET_Request"></class>-->
 <!--        </classes>-->
