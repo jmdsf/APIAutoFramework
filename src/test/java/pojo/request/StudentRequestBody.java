@@ -1,8 +1,6 @@
-package pojo;
+package pojo.request;
 
-import org.json.simple.JSONObject;
-
-public class Student {
+public class StudentRequestBody {
     private String name;
     private String age;
     private String email;

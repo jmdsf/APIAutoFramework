@@ -1,14 +1,12 @@
 package ApiTest;
 
 import io.restassured.RestAssured;
-import io.restassured.http.Method;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import resources.Helper;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class Students_GET_Request extends Helper {
