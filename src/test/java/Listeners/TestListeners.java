@@ -4,9 +4,8 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-import java.io.File;
 
-public class TestListeners implements ITestListener {
+public class TestListeners extends SetupHelper implements ITestListener {
 
     public void onTestStart(ITestResult result) {
 
@@ -33,11 +32,7 @@ public class TestListeners implements ITestListener {
     }
 
     public void onStart(ITestContext context) {
-        File logDir = new File(System.getProperty("user.dir")+"/src/test/logs");
-        File[] logs = logDir.listFiles();
-        for(File log: logs){
-            log.delete();
-        }
+        deleteLogs();
     }
 
     public void onFinish(ITestContext context) {

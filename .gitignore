@@ -2,3 +2,4 @@
 /target/maven-status/
 /target/surefire-reports/
 /src/test/logs/
+src/test/logs/log.txt

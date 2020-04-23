@@ -10,19 +10,20 @@ import resources.Helper;
 
 import java.io.IOException;
 
-public class Students_GET_Request extends Helper {
+public class Employees_GET_Request extends Helper {
 
-    @Test(groups = { "student", "users" })
-    void getStudents() throws IOException {
+    @Test(groups = { "employee", "users" })
+    void getEmployees() throws IOException {
 
-        RequestSpecification req = RestAssured.given().spec(baseRequest());
+        RequestSpecification req = RestAssured.given().spec(baseRequest()).auth().basic("ADMIN","SECRETE123");
 
-        SuccessResponseBody response = req.when().get(getAPIResource("allStudents"))
+        SuccessResponseBody response = req.when().get(getAPIResource("allEmployees"))
                 .then()
                 .assertThat().statusCode(HttpStatus.SC_OK).statusLine("HTTP/1.1 200 OK")
                 .extract().as(SuccessResponseBody.class);
 
         Assert.assertTrue(response.getData().size() > 1);
+        Assert.assertNotNull(response.getData().get(0).getEmployee_id());
 
     }
 }
