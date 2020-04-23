@@ -1,7 +1,5 @@
 package pojo.response;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
-
 public class StudentData {
 
     private String student_id;

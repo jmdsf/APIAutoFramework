@@ -6,7 +6,6 @@ import io.restassured.specification.RequestSpecification;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import resources.Helper;
-import resources.TestDataBuilder;
 
 import java.io.IOException;
 

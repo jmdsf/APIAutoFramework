@@ -8,7 +8,6 @@ import org.testng.annotations.Test;
 import resources.Helper;
 import resources.TestDataBuilder;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class Employee_POST_Request extends Helper {
