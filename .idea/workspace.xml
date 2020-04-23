@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="907c60a6-8ced-40e7-a2cd-460aa553f8e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/response/StudentData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/response/StudentResponseBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/TestResponseBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/logs/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/logs/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/APIAutomation.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ApiTest/Student_GET_Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApiTest/Student_GET_Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ApiTest/Student_POST_Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApiTest/Student_POST_Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pojo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojo/request/StudentRequestBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/TestDataBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/TestDataBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/logs/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ApiTest/Employee_POST_Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ApiTest/Employee_POST_Request.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ApiTest/Student_GET_Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ApiTest/Student_GET_Request.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ApiTest/Student_POST_Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ApiTest/Student_POST_Request.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pojo/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/resources/TestDataBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/resources/TestDataBuilder.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +42,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1affnGSgeozDHAOr9I8SGmw2t3O" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -54,22 +65,15 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pojo.response" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Juan\IdeaProjects\APIAutomation" />
       <recent name="C:\Users\Juan\IdeaProjects\APIAutomation\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Juan/IdeaProjects/APIAutomation/testng.xml">
-    <configuration name="C:/Users/Juan/IdeaProjects/APIAutomation/testngEmployees.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomation" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngEmployees.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Student_GET_Request.createStudentPojo">
     <configuration name="C:/Users/Juan/IdeaProjects/APIAutomation/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomation" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -80,7 +84,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Student_GET_Request" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Student_GET_Request.createStudentPojo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomation" />
       <extension name="coverage">
         <pattern>
@@ -90,7 +94,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="ApiTest" />
       <option name="MAIN_CLASS_NAME" value="ApiTest.Student_GET_Request" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="createStudentPojo" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -115,7 +120,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Student_GET_Request.testMethod" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Student_POST_Request.createStudent" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomation" />
       <extension name="coverage">
         <pattern>
@@ -124,8 +129,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ApiTest" />
-      <option name="MAIN_CLASS_NAME" value="ApiTest.Student_GET_Request" />
-      <option name="METHOD_NAME" value="testMethod" />
+      <option name="MAIN_CLASS_NAME" value="ApiTest.Student_POST_Request" />
+      <option name="METHOD_NAME" value="createStudent" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Student_POST_Request.createStudentPojo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ApiTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ApiTest" />
+      <option name="MAIN_CLASS_NAME" value="ApiTest.Student_POST_Request" />
+      <option name="METHOD_NAME" value="createStudentPojo" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -134,19 +157,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.C:/Users/Juan/IdeaProjects/APIAutomation/testngEmployees.xml" />
-      <item itemvalue="TestNG.Student_GET_Request.testMethod" />
       <item itemvalue="TestNG.Student_GET_Request.getStudentDetailsById" />
-      <item itemvalue="TestNG.Student_GET_Request" />
       <item itemvalue="TestNG.C:/Users/Juan/IdeaProjects/APIAutomation/testng.xml" />
+      <item itemvalue="TestNG.Student_POST_Request.createStudent" />
+      <item itemvalue="TestNG.Student_POST_Request.createStudentPojo" />
+      <item itemvalue="TestNG.Student_GET_Request.createStudentPojo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/Juan/IdeaProjects/APIAutomation/testng.xml" />
+        <item itemvalue="TestNG.Student_GET_Request.createStudentPojo" />
+        <item itemvalue="TestNG.Student_POST_Request.createStudentPojo" />
         <item itemvalue="TestNG.Student_GET_Request.getStudentDetailsById" />
-        <item itemvalue="TestNG.Student_GET_Request" />
-        <item itemvalue="TestNG.Student_GET_Request.testMethod" />
-        <item itemvalue="TestNG.C:/Users/Juan/IdeaProjects/APIAutomation/testngEmployees.xml" />
+        <item itemvalue="TestNG.Student_POST_Request.createStudent" />
+        <item itemvalue="TestNG.C:/Users/Juan/IdeaProjects/APIAutomation/testng.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -184,10 +207,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="448" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1587296299987" />
-    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1587317783476">
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1587565649874">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1587317783476" />
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1587565649874" />
     <state x="412" y="146" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1587368770498">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -196,34 +219,62 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="479" y="222" width="407" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1587311676119" />
+    <state x="381" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587565822285">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="381" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1587565822285" />
     <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587299250121">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1587299250121" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1587393262603">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1587393262603" />
     <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1587379845570">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587379845570" />
-    <state width="1322" height="218" key="GridCell.Tab.0.bottom" timestamp="1587391650213">
+    <state width="1322" height="218" key="GridCell.Tab.0.bottom" timestamp="1587627898442">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="218" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587391650213" />
-    <state width="1322" height="218" key="GridCell.Tab.0.center" timestamp="1587391650213">
+    <state width="1322" height="218" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587627898442" />
+    <state width="1322" height="218" key="GridCell.Tab.0.center" timestamp="1587627898441">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="218" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587391650213" />
-    <state width="1322" height="218" key="GridCell.Tab.0.left" timestamp="1587391650212">
+    <state width="1322" height="218" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587627898441" />
+    <state width="1322" height="218" key="GridCell.Tab.0.left" timestamp="1587627898441">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="218" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587391650212" />
-    <state width="1322" height="218" key="GridCell.Tab.0.right" timestamp="1587391650213">
+    <state width="1322" height="218" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587627898441" />
+    <state width="1322" height="218" key="GridCell.Tab.0.right" timestamp="1587627898442">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="218" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587391650213" />
+    <state width="1322" height="218" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587627898442" />
+    <state width="1322" height="217" key="GridCell.Tab.1.bottom" timestamp="1587565289159">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="217" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587565289159" />
+    <state width="1322" height="217" key="GridCell.Tab.1.center" timestamp="1587565289159">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="217" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1587565289159" />
+    <state width="1322" height="217" key="GridCell.Tab.1.left" timestamp="1587565289159">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="217" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1587565289159" />
+    <state width="1322" height="217" key="GridCell.Tab.1.right" timestamp="1587565289159">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="217" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1587565289159" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1587379853410">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587379853410" />
+    <state x="465" y="96" key="VcsDiffUtil.ChangesDialog" timestamp="1587393051443">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="465" y="96" key="VcsDiffUtil.ChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1587393051443" />
     <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1587310550451">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
